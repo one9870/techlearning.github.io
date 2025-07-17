@@ -1,5 +1,28 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Support
-    url: https://github.com/mmistakes/minimal-mistakes/discussions
-    about: Please post your support questions in the Discussions section.
+title: TechLearning 技術筆記
+name: TechLearning
+description: 分享 IT、Python、Linux、自動化教學的技術部落格
+url: "https://one9870.github.io" # 不要加斜線
+baseurl: "" # 留空，因為你是 user page
+locale: "zh-TW"
+repository: one9870/techlearning.github.io
+
+author:
+  name: One Chen
+  avatar: "/assets/images/avatar.png"  # 可自訂大頭貼
+  bio: "全端工程師，專注於AI結合自動化應用"
+  location: Taiwan
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/one9870"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:one9870@gmail.com"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+
+theme: minimal-mistakes-jekyll
